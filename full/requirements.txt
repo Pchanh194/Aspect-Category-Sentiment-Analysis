@@ -1,0 +1,11 @@
+torch
+transformers
+scikit-learn
+numpy
+tqdm
+sentencepiece
+wandb
+transformers[torch]
+matplotlib
+pandas
+peft

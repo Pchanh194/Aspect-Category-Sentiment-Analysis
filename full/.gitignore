@@ -1,0 +1,172 @@
+# ========================
+# Hệ thống
+# ========================
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/
+
+.jsonl
+.txt
+# ========================
+# Môi trường Python
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+.venv
+ENV/
+pip-log.txt
+pip-delete-this-directory.txt
+pyvenv.cfg
+# ========================
+# IDE và Editor
+# ========================
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+*.bak
+*.orig
+*.tmp
+*.temp
+*.~undo-tree~
+*.session
+*.code-workspace
+
+# ========================
+# Log files
+# ========================
+*.log
+logs/
+log/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ========================
+# Database
+# ========================
+*.sqlite
+*.db
+*.sql
+*.dump
+
+# ========================
+# Build và Dist
+# ========================
+dist/
+build/
+*.egg-info/
+.eggs/
+*.manifest
+*.spec
+*.pickle
+*.cover
+*.coverage
+.coverage.*
+*.bench
+*.prof
+
+# ========================
+# Dependencies
+# ========================
+node_modules/
+jspm_packages/
+bower_components/
+
+# ========================
+# Testing
+# ========================
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+nosetests.xml
+test_*.log
+
+# ========================
+# CI/CD
+# ========================
+.circleci/
+.github/
+.gitlab-ci.yml
+.travis.yml
+.dockerignore
+
+# ========================
+# Docker
+# ========================
+*.pid
+*.seed
+*.pid.lock
+docker-compose.override.yml
+
+# ========================
+# EditorConfig
+# ========================
+.editorconfig
+
+# ========================
+# MacOS
+# ========================
+.AppleDouble
+.LSOverride
+
+# ========================
+# Windows
+# ========================
+Desktop.ini
+$RECYCLE.BIN/
+
+# ========================
+# Linux
+# ========================
+*~
+.nfs*
+
+# ========================
+# Misc
+# ========================
+!.gitkeep
+*.crt
+*.key
+*.pem
+*.cache
+*.bak
+*.old
+*.swp
+*.out
+*.lock
+*.bin
+*.zip
+*.tar
+*.gz
+*.7z
+*.rar
+*.bz2
+*.xz
+*.diff
+*.patch
+*.bak
+# .gitignore
+test_code/
+wandb/
+retrieved_wandb/
+data/
+dataset/
+
+# Ignore model checkpoints
+model_checkpoints/
+api_gen_data.py
+groq_api_gen_data_prompt2.0.py
+get_file_from_wandb/
